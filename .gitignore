@@ -1,0 +1,25 @@
+# --- Secrets ---
+# Ignore the environment file which contains passwords and keys
+.env
+# Ignore the Firebase admin secret key file.
+# Use the specific filename to be safe.
+cctnsproj-firebase-adminsdk-fbsvc-9f4a394924.json
+
+# --- Python ---
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Docker ---
+# Ignore the data volume created by Docker Compose for the database
+postgres_data/
+
+# --- VSCode ---
+# Ignore editor-specific settings
+.vscode/
+
+# --- Other ---
+# Ignore temporary audio files if any get created locally
+temp_audio/
