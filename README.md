@@ -6,7 +6,7 @@ blueQuery_backend is a prototype backend system designed to convert natural lang
 
 The core objective is to enable seamless access to law enforcement data through natural language. Users can ask questions in plain English (or other supported languages), and the system generates accurate SQL queries to fetch relevant results from the Oracle-based CCTNS 2.0 database.
 
-This prototype is under internal evaluation for Highcourt workflows and is built with scalability in mind. Based on usage, it can be extended into a production-grade backend service.
+This prototype is under internal evaluation for CCTNS-based workflows and is built with scalability in mind. It can be extended into a production-grade backend service.
 
 ## 🧠 Architecture Highlights
 
