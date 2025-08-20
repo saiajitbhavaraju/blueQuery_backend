@@ -1,4 +1,4 @@
-# blueQuery_backend 🧠🔍
+# blueQuery_backend 🔍
 
 blueQuery_backend is a prototype backend system designed to convert natural language queries into precise SQL statements that retrieve information from the CCTNS 2.0 database—India’s official police records system. This project demonstrates how large-scale structured data can be queried intelligently using self-hosted AI models and schema-aware reasoning agents.
 
@@ -8,15 +8,15 @@ The core objective is to enable seamless access to law enforcement data through 
 
 This prototype is under internal evaluation for CCTNS-based workflows and is built with scalability in mind. It can be extended into a production-grade backend service.
 
-## 🧠 Architecture Highlights
+## 🏗️ Architecture Highlights
 
 - 🔍 Converts natural language input into SQL queries
 - 🧠 Uses self-hosted LLMs (no external APIs)
 - 🗃️ Connects directly to OracleDB (CCTNS 2.0)
-- 🧠 Employs schema-aware agents and reasoning modules
-- 🧠 RAG pipeline powered by ChromaDB (not SQLite)
+- 🧩 Employs schema-aware agents and reasoning modules
+- 📚 RAG pipeline powered by ChromaDB (not SQLite)
 
-## 🧠 Model Infrastructure
+## ⚡ Model Infrastructure
 
 - 🧠 Self-hosted Qwen 32B model
 - 🧠 Self-hosted Ollama 3.3 (70B)
@@ -26,9 +26,8 @@ This prototype is under internal evaluation for CCTNS-based workflows and is bui
 ## 🗂️ Data Handling
 
 - ✅ Real data from OracleDB (CCTNS 2.0)
-- 📊 16 relational tables with 1,000+ rows and columns
+- 📊 16 relational tables(6 Master, 10 Transactional) with 1,000+ rows and columns
 - ❌ No mock data used
-- ❌ No external GitHub repos for hosting or testing
 - ❌ No blob storage required — data is already provisioned
 
 ## 🔧 Features
